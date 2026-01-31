@@ -90,7 +90,10 @@ class SequentialIntegerAttributeDecoder extends SequentialAttributeDecoder
         int numValues = numEntries * numComponents;
         if (numComponents <= 0)
             return null;
-        this.preparePortableAttribute(numEntries, numComponents);
+        if (this.portableAttribute == null)
+        {
+            this.preparePortableAttribute(numEntries, numComponents);
+        }
         if (this.getPortableAttribute().getNumUniqueEntries() == 0)
             return null;
         byte[] buf = this.getPortableAttribute().getBuffer().getBuffer();
