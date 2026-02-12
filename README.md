@@ -11,7 +11,7 @@ Add the following code in your pom.xml:
 <dependency>
   <groupId>com.openize</groupId>
   <artifactId>drako</artifactId>
-  <version>1.4.4</version>
+  <version>26.2.0</version>
 </dependency>
 ```
 
