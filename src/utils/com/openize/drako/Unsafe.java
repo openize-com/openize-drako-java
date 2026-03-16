@@ -156,7 +156,7 @@ class Unsafe
     {
         if (ret.length == 0)
             return ret;
-        for (int i = 0,  d = 0; i < ret.length; i += 4, d++)
+        for (int i = 0,  d = 0; d < ret.length; i += 4, d++)
         {
             ret[d] = Unsafe.getFloat(array, i);
         }

@@ -1,14 +1,11 @@
 package com.openize.drako;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
-
 import org.junit.Assert;
 import org.junit.Test;
 public class UnitTest1
-{
+{    
     @Test
     public void decodeFromDrcFile()
         throws IOException, DrakoException
