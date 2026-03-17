@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.openize</groupId>
   <artifactId>drako</artifactId>
-  <version>26.2.0</version>
+  <version>26.3.0</version>
   <name>drako</name>
   <description>Openize.Drako for Java allows you to encode and decode Google Draco files with Java, Kotlin, Scala.</description>
   <url>https://products.openize.com/drako/java/</url>
